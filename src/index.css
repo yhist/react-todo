@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  background: rgb(179, 220, 236, 0.8);
+}
+
+.container {
+  position: relative;
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.todoBlock {
+  position: relative;
+  display: block;
+  background: #fff;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -9px 17px 13px rgba(0 0 0 / 16%);
+}
